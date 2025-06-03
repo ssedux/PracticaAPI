@@ -1,0 +1,121 @@
+/* Estilos para el dashboard y formulario de videojuegos */
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.crud-title {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #7c3aed;
+  margin-bottom: 1.5rem;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.crud-card {
+  background: rgba(253, 246, 255, 0.95);
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(124,58,237,0.10);
+  padding: 2rem;
+  margin: 1.5rem 0;
+  border: 1px solid #e9d5ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.crud-form {
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 1em;
+  justify-content: center;
+}
+.form-group label {
+  min-width: 80px;
+  text-align: right;
+  margin: 0;
+  color: #6d28d9;
+  font-weight: 500;
+}
+.form-group input {
+  flex: 1;
+  margin: 0;
+  width: 100%;
+  padding: 0.5em 0.9em;
+  border: 1.2px solid #a18cd1;
+  border-radius: 0.4em;
+  background: #2d1a4d;
+  color: #ede9fe;
+  font-size: 1em;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 4px rgba(109,40,217,0.04);
+}
+.form-group input:focus {
+  outline: none;
+  border-color: #c4b5fd;
+  box-shadow: 0 0 0 2px #a18cd155;
+  background: #3b2566;
+}
+::placeholder {
+  color: #c4b5fd;
+  opacity: 1;
+}
+
+.crud-table {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(109,40,217,0.08);
+  overflow: hidden;
+}
+.crud-table th, .crud-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  color: #6d28d9;
+}
+.crud-table th {
+  background: #ede9fe;
+  color: #6d28d9;
+  border-bottom: 1px solid #ccc;
+}
+.crud-table tr:nth-child(even) {
+  background: #f3e8ff;
+}
+.crud-table tr:hover {
+  background: #e9d5ff;
+}
+
+.crud-btns {
+  display: flex;
+  gap: 0.5em;
+}
+
+@media (max-width: 600px) {
+  .dashboard-container {
+    padding: 0.5rem;
+  }
+  .crud-card {
+    padding: 1rem;
+  }
+  .crud-title {
+    font-size: 1.3rem;
+  }
+  .form-group {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.3em;
+  }
+  .form-group label {
+    text-align: left;
+    min-width: unset;
+  }
+}

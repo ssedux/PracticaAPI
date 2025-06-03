@@ -1,0 +1,9 @@
+/* Título reutilizable */
+.title-main {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: #7c3aed;
+  letter-spacing: 1px;
+  text-align: center;
+}

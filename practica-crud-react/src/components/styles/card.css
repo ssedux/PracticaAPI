@@ -1,0 +1,9 @@
+/* Card reutilizable */
+.card-main {
+  background: rgba(253, 246, 255, 0.95);
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(124,58,237,0.10);
+  padding: 2rem;
+  margin: 1.5rem 0;
+  border: 1px solid #e9d5ff;
+}
