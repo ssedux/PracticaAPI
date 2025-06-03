@@ -24,7 +24,7 @@ La API utilizada es pública y expone los siguientes campos para cada videojuego
 
 1. **Clona el repositorio**
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/ssedux/PracticaAPI.git
    cd practica-crud-react
    ```
 
